@@ -1,0 +1,120 @@
+{
+    "id": 17,
+    "brand": "Peugeot",
+    "model": "208",
+    "price": 63900,
+    "power": 5,
+    "photo": "PEUGEOT-208.png",
+    "availability": 3,
+    "description": "The Peugeot 208 is a compact hatchback designed for city and everyday driving, known for its sharp, modern design with distinctive LED light signatures. Inside, it features the i-Cockpit layout, with a small sport-style steering wheel, a high-mounted digital instrument display and a central touchscreen. It is offered with efficient petrol engines, and an all-electric version, the e-208, exists in the wider range, along with a good level of driver assistance and comfort for its size."
+},
+{
+    "id": 18,
+    "brand": "Peugeot",
+    "model": "2008",
+    "price": 87900,
+    "power": 7,
+    "photo": "PEUGEOT-2008.jpg",
+    "availability": 3,
+    "description": "The Peugeot 2008 is a compact SUV built on the same platform as the 208, combining a raised driving position with a stylish, sporty exterior. It features the i-Cockpit interior with a digital instrument display and a central touchscreen, as well as LED lighting and a practical trunk for family use. The range includes petrol and diesel engines, and an electric e-2008 version is available in some markets."
+},
+{
+    "id": 19,
+    "brand": "Renault",
+    "model": "Kwid Populaire",
+    "price": 30209,
+    "power": 4,
+    "photo": "RENAULT-KWID-POPULAIRE.jpg",
+    "availability": 3,
+    "description": "The Renault Kwid Populaire is an entry-level city car with a small-SUV look, characterized by its raised ground clearance, compact dimensions and simple, affordable design. Its small petrol engine focuses on low running costs, which makes it easy to drive and to park in town. As part of the 'Populaire' range, it targets buyers looking for the most accessible price on the market."
+},
+{
+    "id": 20,
+    "brand": "Renault",
+    "model": "Clio",
+    "price": 66950,
+    "power": 6,
+    "photo": "RENAULT-CLIO.jpg",
+    "availability": 3,
+    "description": "The Renault Clio is a compact hatchback and one of the best-known city cars in Europe, appreciated for its balance between comfort, space and low running costs. Its modern design features full-LED light signatures, while the interior offers a digital instrument display and a central multimedia screen. It is powered by efficient petrol engines and is equipped with driver assistance systems, making it a practical choice for both city and highway driving."
+},
+{
+    "id": 21,
+    "brand": "KIA",
+    "model": "Picanto Populaire",
+    "price": 32794,
+    "power": 4,
+    "photo": "KIA-PICANTO-POPULAIRE.jpg",
+    "availability": 3,
+    "description": "The KIA Picanto Populaire is the entry version of the Picanto city car, designed for drivers who want an affordable and economical vehicle. It is very compact, which makes it easy to maneuver and park in dense city traffic, while still offering a surprisingly practical cabin for its size. Its small petrol engine keeps fuel consumption low, and the car focuses on the essentials for everyday driving."
+},
+{
+    "id": 22,
+    "brand": "KIA",
+    "model": "Picanto",
+    "price": 53480,
+    "power": 5,
+    "photo": "KIA-PICANTO.jpg",
+    "availability": 3,
+    "description": "The KIA Picanto is a compact city car known for its small size, easy handling and well-finished interior. It features a modern design with LED lighting on some versions, and a touchscreen infotainment system compatible with smartphone connectivity such as Apple CarPlay and Android Auto on recent versions. Its petrol engine is chosen for economy and smooth city driving, while its compact dimensions make it one of the easiest cars to park."
+},
+{
+    "id": 23,
+    "brand": "Hyundai",
+    "model": "Grand i10 Populaire",
+    "price": 33495,
+    "power": 4,
+    "photo": "HYUNDAI-GRAND-I10-POPULAIRE.png",
+    "availability": 3,
+    "description": "The Hyundai Grand i10 Populaire is the entry-level version of the Grand i10, a small hatchback built for affordability and low running costs. Despite its compact size, it offers a roomy cabin and a practical trunk for its category. It is powered by a small petrol engine that is easy to drive in the city, making it a sensible choice for first-time buyers and daily commuting."
+},
+{
+    "id": 24,
+    "brand": "Hyundai",
+    "model": "Grand i10",
+    "price": 51950,
+    "power": 5,
+    "photo": "HYUNDAI-GRAND-I10.jpg",
+    "availability": 3,
+    "description": "The Hyundai Grand i10 is a compact hatchback that stands out for its spacious interior and practical design in the city-car segment. It offers a modern dashboard with a central touchscreen on recent versions, comfortable seating, and a petrol engine tuned for economy and smooth driving. Its small dimensions make it easy to park, while its equipment and comfort level are higher than the Populaire version."
+},
+{
+    "id": 25,
+    "brand": "Volkswagen",
+    "model": "Virtus",
+    "price": 67980,
+    "power": 6,
+    "photo": "VOLKSWAGEN-VIRTUS.jpg",
+    "availability": 3,
+    "description": "The Volkswagen Virtus is a compact sedan that combines a clean, elegant design with a generous trunk for its size. It is built on a platform shared with other small Volkswagen group models and is generally offered with a turbocharged petrol TSI engine, known for its balance between performance and fuel economy. Inside, it features a modern dashboard with a central touchscreen and a comfortable, well-finished cabin."
+},
+{
+    "id": 26,
+    "brand": "Volkswagen",
+    "model": "T-Cross",
+    "price": 77980,
+    "power": 6,
+    "photo": "VOLKSWAGEN-T-CROSS.jpg",
+    "availability": 3,
+    "description": "The Volkswagen T-Cross is a compact SUV that blends a high driving position with a practical, versatile interior, including a rear bench that can slide to increase either passenger or luggage space. It is offered with efficient turbocharged TSI petrol engines, and features modern technology such as a central touchscreen and driver assistance systems. Its compact dimensions make it well suited to city driving while remaining comfortable for longer trips."
+},
+{
+    "id": 27,
+    "brand": "Toyota",
+    "model": "Yaris Hybride",
+    "price": 84900,
+    "power": 4,
+    "photo": "TOYOTA-YARIS-HYBRIDE.jpg",
+    "availability": 3,
+    "description": "The Toyota Yaris Hybride is a compact hatchback equipped with a self-charging hybrid powertrain, which combines a 1.5L petrol engine with an electric motor and does not need to be plugged in. This system is known for very low fuel consumption in city driving and smooth, quiet acceleration. It features a sporty exterior design, a modern interior, and Toyota Safety Sense driver assistance technologies, and benefits from Toyota's reputation for reliability."
+},
+{
+    "id": 28,
+    "brand": "Toyota",
+    "model": "Yaris Cross Hybride",
+    "price": 112800,
+    "power": 5,
+    "photo": "TOYOTA-YARIS-CROSS-HYBRIDE.jpg",
+    "availability": 3,
+    "description": "The Toyota Yaris Cross Hybride is a compact crossover SUV based on the Yaris, offering a higher driving position and a more rugged look. It uses a self-charging hybrid powertrain that combines a 1.5L petrol engine with an electric motor to reduce fuel consumption, particularly in city driving. Inside, it offers a comfortable cabin with a practical trunk and modern driver assistance systems, making it a versatile choice for both urban use and family trips."
+}

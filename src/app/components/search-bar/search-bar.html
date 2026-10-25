@@ -1,0 +1,32 @@
+<div class="container">
+  <fa-icon [icon]="faMagnifyingGlass"></fa-icon>
+  <input
+    type="text"
+    #brand
+    placeholder="Search a brand (Audi, BMW, Jaguar...)"
+    (input)="selectAutos(brand.value)"
+  />
+</div>
+<p class="result-count">{{ selectedAutos.length }} car(s) found</p>
+
+<div class="cars-container">
+  @for (auto of selectedAutos; track auto.id) {
+    <div class="auto-card">
+      <div class="image-box">
+        <img [src]="`images/${auto.photo}`" [alt]="auto.model" />
+      </div>
+      <div class="details">
+        <p class="brand">{{ auto.brand }}</p>
+        <h3>{{ auto.model }}</h3>
+        <div class="infos">
+          <span class="power">Power : {{ auto.power }}</span>
+          <span class="stock">{{ auto.availability }} in stock</span>
+        </div>
+        <p class="price">{{ auto.price }} <small>TND</small></p>
+      </div>
+      <div class="see_more">
+        <button (click)="selectCar(auto)">See more...</button>
+      </div>
+    </div>
+  }
+</div>

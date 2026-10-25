@@ -1,0 +1,16 @@
+<header class="header">
+  <span class="pill"> Premium selection</span>
+  <h1>Welcome to <span>my showroom</span></h1>
+  <p class="slogan">Discover our selection of premium cars</p>
+
+  <div class="marquee">
+    <div class="track">
+      @for (brand of brandsLoop; track $index) {
+        <div class="brand-item">
+          <img [src]="'images/logos/' + brand.logo" [alt]="brand.name" />
+          <span>{{ brand.name }}</span>
+        </div>
+      }
+    </div>
+  </div>
+</header>

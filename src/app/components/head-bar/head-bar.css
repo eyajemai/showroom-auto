@@ -1,0 +1,124 @@
+.header {
+    position: relative;
+    overflow: hidden;
+    padding: 60px 20px 90px;
+    text-align: center;
+    color: white;
+    /* two colored glows on top of a dark gradient */
+    background:
+      radial-gradient(circle at 15% 20%, rgba(205, 129, 163, 0.45), transparent 40%),
+      radial-gradient(circle at 85% 80%, rgba(138, 43, 226, 0.45), transparent 40%),
+      linear-gradient(135deg, #1e1c1c, var(--dark));
+    clip-path: ellipse(100% 100% at 50% 0%);   /* curved bottom edge */
+  }
+  
+  /* subtle diagonal stripes as texture */
+  .header::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: repeating-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.03) 0,
+      rgba(255, 255, 255, 0.03) 2px,
+      transparent 2px,
+      transparent 14px
+    );
+    pointer-events: none;
+  }
+  
+  .header > * {
+    position: relative;   /* keeps the text above the stripes */
+  }
+  
+  /* small badge above the title */
+  .pill {
+    display: inline-block;
+    padding: 6px 18px;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--pink);
+    border: 1px solid var(--pink);
+    border-radius: 30px;
+    background: rgba(205, 129, 163, 0.12);
+  }
+  
+  .header h1 {
+    margin: 22px 0 10px;
+    font-size: clamp(2em, 6vw, 4em);   /* adapts to the screen size */
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    text-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* "my showroom" in gradient colors */
+  .header h1 span {
+    background: linear-gradient(90deg, var(--pink), #b57edc);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .slogan {
+    margin: 0;
+    font-size: 1.1em;
+    font-style: italic;
+    letter-spacing: 1px;
+    color: #ddd;
+  }
+  /* the scrolling banner */
+.marquee {
+    max-width: 900px;
+    margin: 30px auto 0;
+    padding: 14px 0;
+    overflow: hidden;   /* hides what is outside the banner */
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    /* the edges fade out */
+    -webkit-mask-image: linear-gradient(90deg, transparent, black 15%, black 85%, transparent);
+    mask-image: linear-gradient(90deg, transparent, black 15%, black 85%, transparent);
+  }
+  
+  .track {
+    display: flex;
+    width: max-content;                    /* the track is as wide as all its items */
+    animation: scroll 25s linear infinite; /* loops forever */
+  }
+  
+  .marquee:hover .track {
+    animation-play-state: paused;          /* stops when the mouse is over it */
+  }
+  
+  .brand-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 0 35px;
+    white-space: nowrap;
+  }
+  .brand-item img {
+    height: 70px;                 /* bigger logos */
+    width: 130px;
+    object-fit: contain;          /* the whole logo stays visible */
+    filter: url(#remove-white);   /* white background removed */
+    opacity: 0.85;
+    transition: opacity 0.3s, transform 0.3s;
+  }
+  
+  .brand-item:hover img {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  
+  .brand-item span {
+    font-size: 0.85em;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #bbb;
+  }
+  
+  /* moves the track left by half of its width, then it restarts */
+  @keyframes scroll {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
